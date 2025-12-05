@@ -1,0 +1,1 @@
+﻿using System; using System.Windows.Forms; namespace MultiSocialWeb { public class QuoteForm : Form { public QuoteForm(){ Text="Fiyat Teklifi"; StartPosition=FormStartPosition.CenterParent; Width=800; Height=500; Controls.Add(new Label{Dock=DockStyle.Fill,Text="Teklif ekranı yakında...", TextAlign=System.Drawing.ContentAlignment.MiddleCenter}); } } }
